@@ -4,7 +4,7 @@
 require("../config.php");
 include_once("../db.php");
 include_once("../function.php");
-//header("Content-Type: text/html; charset=".$config{'charset'});
+header("Content-Type: text/html; charset=".$config{'charset'});
 
 //pg_query($dbconn,"drop table dusc");
 //pg_query($dbconn,"drop sequence dusc_seq");

@@ -186,7 +186,7 @@ require("../config.php");
         </div> -->
     </div>
     <div class="d1">
-        <a href="Dudii_lab2.php">Назад</a>
+        <a href="Dudii_index.php">Назад</a>
     </div>
 </body>
 
