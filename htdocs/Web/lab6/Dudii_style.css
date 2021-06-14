@@ -1,0 +1,149 @@
+.osn {
+    margin-top: 120px;
+    margin-right: 200px;
+}
+
+#div1 {
+    margin-top: 230px;
+    width: 460px;
+    height: 290px;
+    padding-left: 30px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 26px;
+    font-style: italic;
+}
+
+.b1 {
+    width: 170px;
+    margin-left: 160px;
+    /* background: blueviolet; */
+    margin-top: 30px;
+}
+
+#div1 p {
+    margin-left: 60px;
+    text-align: center;
+}
+
+#mail {
+    width: 400px;
+    text-align: center;
+    margin-left: 40px;
+}
+
+.answ {
+    margin-top: -10px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.false {
+    color: rgb(113, 23, 23);
+}
+
+.true {
+    color: rgb(14, 86, 29);
+}
+
+#div2 {
+    margin-top: 190px;
+    width: 830px;
+    height: 380px;
+    padding-left: 30px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 26px;
+    font-style: italic;
+}
+
+.sent {
+    font-size: 17px;
+}
+
+.before {
+    font-size: 20px;
+}
+
+hr {
+    border: none;
+    color: rgb(61, 4, 4);
+    background-color: rgb(61, 4, 4);
+    height: 2px;
+}
+
+.sent div {
+    text-align: center;
+}
+
+#div3 {
+    margin-top: 230px;
+    width: 460px;
+    height: 310px;
+    padding-left: 30px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 26px;
+    font-style: italic;
+}
+
+#div3 p {
+    margin-left: 60px;
+    text-align: center;
+}
+
+#block_left {
+    width: 155px;
+    float: left;
+    clear: both;
+}
+
+#block_right {
+    margin-left: 155px;
+    width: 155px;
+}
+
+#div4 {
+    margin-top: 190px;
+    width: 290px;
+    height: 360px;
+    padding-left: 30px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 26px;
+    font-style: italic;
+}
+
+#div5 {
+    margin-top: 50px;
+    width: 860px;
+    height: 700px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 26px;
+    font-style: italic;
+    overflow-x: auto;
+    font-size: 18px;
+}
+
+.zavd {
+    font-size: 24px;
+    /* margin-left: 5px; */
+    cursor: pointer;
+}
+
+.inp {
+    width: 600px;
+    margin-left: 120px;
+}
+
+.b2 {
+    width: 300px;
+    margin-left: 270px;
+}

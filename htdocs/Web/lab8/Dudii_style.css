@@ -1,0 +1,452 @@
+@font-face {
+    font-family: "Astoria script Two";
+    src: url("font/11365.ttf");
+}
+
+.osn {
+    margin-top: 120px;
+    margin-right: 200px;
+}
+
+#div1 {
+    margin-top: 280px;
+    width: 650px;
+    height: 250px;
+    padding-left: 30px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    font-style: italic;
+    overflow-x: auto;
+    text-align: center;
+}
+
+.numbers {
+    width: 250px;
+    margin: 5px;
+    text-align: center;
+}
+
+table {
+    display: inline-block;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    text-align: center;
+    background: #ff945652;
+    box-shadow: 0 0 7px #310e03;
+    margin: auto;
+    border-collapse: collapse;
+    border-spacing: 5px;
+    border: 1.5px solid #310e03;
+    color: #310e03;
+}
+
+table td {
+    border: 2px solid #310e03;
+    padding: 5px;
+    min-width: 50px;
+    max-width: 300px;
+}
+
+#div2 {
+    margin-top: 130px;
+    width: 650px;
+    height: 500px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    font-style: italic;
+    overflow-x: auto;
+    text-align: center;
+}
+
+#div2 form {
+    text-align: right;
+    padding-right: 27%;
+}
+
+.b2 {
+    display: block;
+    width: 300px;
+    margin-left: 195px;
+    margin-top: 30px;
+}
+
+#div3 {
+    margin-top: 20px;
+    width: 650px;
+    height: 600px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    font-style: italic;
+    overflow-x: auto;
+    text-align: center;
+    border: 2px solid rgb(49, 14, 6);
+}
+
+.all {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background: red; */
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 630px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#first {
+    justify-content: center;
+    /* background: lightcoral; */
+    padding: 0px;
+}
+
+.header {
+    width: inherit;
+    margin: 5px;
+    opacity: .99;
+    overflow: hidden;
+    position: relative;
+    border-radius: 3px;
+    margin-top: -60px;
+    padding: 0px;
+}
+
+.header p {
+    font-family: "Astoria script Two";
+    text-align: center;
+    font-size: 90px;
+    padding: 0px;
+    margin: 0px;
+    color: rgb(49, 14, 6);
+}
+
+.element-wrapper {
+    width: 33%;
+    /* max-width: 100%; */
+    max-height: 100%;
+    /* опцiонально */
+    margin: 5px;
+}
+
+.element {
+    width: 100%;
+    /* max-width: 100%; */
+    max-height: 100%;
+    /* опцiонально */
+    margin: 5px;
+    opacity: .99;
+    overflow: hidden;
+    position: relative;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 12px 15px 0 rgba(76, 49, 24, 0.528), 0 17px 50px 0 rgba(76, 49, 24, 0.319);
+    -moz-box-shadow: 0 12px 15px 0 rgba(76, 49, 24, 0.528), 0 17px 50px 0 rgba(76, 49, 24, 0.319);
+    box-shadow: 0 12px 15px 0 rgba(76, 49, 24, 0.528), 0 17px 50px 0 rgba(76, 49, 24, 0.319);
+    transition-duration: 0.3s;
+}
+
+.element:hover {
+    -webkit-box-shadow: 0 12px 20px 0 rgba(76, 49, 24, 0.828), 0 17px 70px 0 rgba(76, 49, 24, 0.619);
+    -moz-box-shadow: 0 12px 20px 0 rgba(76, 49, 24, 0.828), 0 17px 70px 0 rgba(76, 49, 24, 0.619);
+    box-shadow: 0 12px 20px 0 rgba(76, 49, 24, 0.828), 0 17px 70px 0 rgba(76, 49, 24, 0.619);
+}
+
+.element:before {
+    content: '';
+    background: -webkit-linear-gradient(top, rgba(100, 70, 42, 0.503) 0%, rgba(100, 70, 42, 0.707) 100%);
+    /* background: linear-gradient(to bottom, rgba(100, 70, 42, 0.503) 0%, rgba(80, 50, 31, 0.7) 100%); */
+    background: radial-gradient(circle, rgba(100, 70, 42, 0.503), rgba(50, 36, 23, 0.748), rgba(81, 59, 39, 0.646));
+    ;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    z-index: 2;
+    -webkit-transition-property: top, opacity;
+    transition-property: top, opacity;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.5s;
+}
+
+.element img {
+    display: block;
+    width: 100%;
+    height: auto;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+}
+
+.element .hovered {
+    width: 100%;
+    padding: 10px;
+    color: #fff;
+    text-shadow: 0 0 15px black;
+    position: absolute;
+    top: 55%;
+    left: -5%;
+    z-index: 3;
+    text-align: center;
+}
+
+.element .hovered span {
+    display: block;
+    opacity: 0;
+    letter-spacing: 2;
+    position: relative;
+    top: -10px;
+    -webkit-transition-property: top, opacity;
+    transition-property: top, opacity;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s;
+}
+
+.element .hovered .hovered-text {
+    line-height: 1.3;
+    font-weight: normal;
+    font-size: 23px;
+}
+
+.element:focus:before,
+.element:focus span,
+.element:hover:before,
+.element:hover span {
+    opacity: 1;
+}
+
+.element:focus:before,
+.element:hover:before {
+    bottom: 0%;
+}
+
+.element:focus span,
+.element:hover span {
+    top: -45;
+}
+
+.element:focus .hovered-text,
+.element:hover .hovered-text {
+    -webkit-transition-delay: 0.15s;
+    transition-delay: 0.15s;
+}
+
+.product_all {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 650px;
+    /* background: chartreuse; */
+    margin: 0px;
+    margin-top: 10px;
+}
+
+.product_without_description {
+    display: flex;
+    flex-direction: row;
+}
+
+.product_photo {
+    /* display: flex; */
+    justify-content: flex-start;
+    /* background: crimson; */
+    padding: 0;
+    /* margin-left: -50px; */
+}
+
+.product_photo img {
+    margin-left: 25px;
+    margin-top: 12px;
+    /* width: 260px; */
+}
+
+.product_information {
+    display: flex;
+    flex-direction: column;
+    /* background: aqua; */
+    width: 420px;
+    margin-right: 0px;
+}
+
+.product_add_storage {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.product_name {
+    justify-content: center;
+    align-items: center;
+    font-family: "Astoria script Two";
+    font-size: 50px;
+    /* background: blue; */
+    margin: 0px;
+    padding: 0px;
+    color: rgb(49, 14, 6);
+}
+
+.product_1_price {
+    align-self: flex-start;
+    margin-left: 30px;
+}
+
+#price_1 {
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: wavy;
+}
+
+.product_enable {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* align-self: flex-start; */
+    margin-left: 15px;
+    margin-right: 20px;
+}
+
+#count_enable {
+    /* color: chartreuse; */
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.section {
+    text-align: center;
+}
+
+.border {
+    position: relative;
+    display: inline-block;
+}
+
+.border img {
+    display: block;
+    width: 205px;
+}
+
+.border:before,
+.border:after {
+    content: "";
+    width: 220px;
+    height: 220px;
+    border: 3px solid rgb(49, 14, 6);
+    position: absolute;
+    top: 12px;
+    left: 24px;
+    z-index: 4;
+}
+
+.border:after {
+    top: -6px;
+    left: 6px;
+    z-index: 6;
+}
+
+.border p {
+    position: relative;
+    text-align: center;
+    margin: 0;
+}
+
+.border p:before,
+.border p:after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: rgb(49, 14, 6);
+    position: absolute;
+}
+
+.border p:before {
+    top: -13px;
+    right: -15px;
+    /* background: rgb(49, 14, 6);; */
+}
+
+.border p:after {
+    bottom: -17px;
+    left: 10px;
+}
+
+.enter_number {
+    background: none;
+}
+
+.product_all_price_and_buy {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#all_price {
+    color: rgb(49, 14, 6);
+    font-family: "Astoria script Two";
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#product_b2 {
+    height: 40px;
+    /* background: blue; */
+    width: 150px;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#zagal {
+    margin-left: 20px;
+}
+
+.product_description {
+    text-align: justify;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+hr {
+    border: none;
+    color: rgb(49, 14, 6);
+    background-color: rgb(49, 14, 6);
+    height: 2px;
+}
+
+#back {
+    background: rgba(150, 131, 110, 0.7);
+    border: double 4px rgb(70, 59, 48);
+    height: 35px;
+    font-size: 16px;
+    font-family: Nexa Script Light;
+    margin: auto;
+    width: 300px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding-top: 5px;
+}
+
+#back a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}

@@ -1,0 +1,114 @@
+.osn {
+    margin-top: 120px;
+    margin-right: 200px;
+}
+
+#div1 {
+    margin-top: 30px;
+    width: 250px;
+    height: 730px;
+    padding-left: 30px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    font-style: italic;
+    overflow-x: auto;
+    text-align: center;
+}
+
+#div2 {
+    margin-top: 190px;
+    width: 890px;
+    height: 360px;
+    /* padding-left: 10px; */
+    padding-right: 30px;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    font-style: italic;
+    overflow-x: auto;
+    text-align: center;
+}
+
+table {
+    display: inline-block;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    text-align: center;
+    background: #ff945652;
+    margin-left: 50px;
+    box-shadow: 0 0 7px #310e03;
+    border-collapse: collapse;
+    border-spacing: 5px;
+    border-radius: 10px;
+    border: 1.5px solid #310e03;
+    color: #310e03;
+}
+
+.table1 tr:nth-child(1) {
+    background: #3e0d026f;
+    color: white;
+}
+
+.table1 td:nth-child(1) {
+    background: #3e0d026f;
+    color: white;
+}
+
+td {
+    border: 2px solid #310e03;
+    width: 70px;
+}
+
+.table2 td:nth-child(1) {
+    background: #3e0d026f;
+    color: white;
+    width: 130px;
+}
+
+.table2 td:nth-child(2) {
+    color: white;
+    width: 180px;
+}
+
+#div3 {
+    margin-top: 80px;
+    width: 420px;
+    height: 560px;
+    /* padding-left: 10px; */
+    padding-right: 30px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    font-style: italic;
+    overflow-x: auto;
+    text-align: center;
+}
+
+#div4 {
+    margin-top: 180px;
+    width: 470px;
+    height: 380px;
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    font-style: italic;
+    overflow-x: auto;
+    text-align: center;
+}
+
+#forma p {
+    text-align: right;
+    padding-right: 60px;
+}
+
+.inp {
+    width: 280px;
+}
+
+#b1 {
+    width: 150px;
+    /* margin-left: 45px; */
+}

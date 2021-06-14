@@ -1,0 +1,214 @@
+.osn {
+    margin-top: 120px;
+    margin-right: 200px;
+}
+
+#div2 {
+    margin-top: 130px;
+    width: 530px;
+    height: 500px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 26px;
+    font-style: italic;
+}
+
+.sent_1 {
+    color: rgb(61, 4, 4);
+    margin-bottom: -20px;
+}
+
+.sent_3 {
+    width: inherit;
+    height: 220px;
+    overflow: auto;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.sent_2 {
+    font-size: 20px;
+    color: black;
+}
+
+#b2 {
+    width: 150px;
+    margin-left: 190px;
+}
+
+.sent_1:last-child {
+    height: 220px;
+    overflow-x: auto;
+}
+
+#file3 {
+    width: 520px;
+    height: 55px;
+    padding: 12px 114px;
+    margin-top: 35px;
+}
+
+#b3 {
+    width: 150px;
+    margin-left: 190px;
+    margin-top: 30px;
+}
+
+#div3 {
+    margin-top: 280px;
+    width: 530px;
+    height: 180px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 26px;
+    font-style: italic;
+}
+
+#div3_2 {
+    margin-top: 180px;
+    width: 530px;
+    height: 335px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 26px;
+    font-style: italic;
+}
+
+#div4 {
+    margin-top: 160px;
+    width: 560px;
+    height: 470px;
+    padding-left: 15px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 26px;
+    font-style: italic;
+}
+
+#uploadagain {
+    display: block;
+    /* padding: 3px; */
+    width: 180px;
+    text-align: center;
+    padding: 3px;
+    height: 20px;
+    /* background: red; */
+}
+
+table {
+    display: inline-block;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    text-align: center;
+    background: #ff945652;
+    margin-top: 30px;
+    margin-left: 50px;
+    box-shadow: 0 0 7px #310e03;
+    border-collapse: collapse;
+    border-spacing: 5px;
+    /* border-radius: 10px; */
+    border: 1.5px solid #310e03;
+    color: #310e03;
+}
+
+th {
+    font-size: 24px;
+    font-weight: 300;
+    padding: 12px 10px;
+    /* border-bottom: 2px solid #310e03; */
+}
+
+
+/* 
+tbody tr:nth-child(1) {
+    border-bottom: 2px solid #310e03;
+} */
+
+td {
+    padding: 10px;
+    border: 2px solid #310e03;
+}
+
+#div5 {
+    margin-top: 80px;
+    width: 600px;
+    height: 660px;
+    padding-left: 10px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 26px;
+    font-style: italic;
+    overflow-y: auto;
+}
+
+.sent {
+    margin-left: 35px;
+    color: #310e03;
+    font-style: italic;
+    font-size: 30px;
+}
+
+#div6 {
+    margin-top: 50px;
+    width: 560px;
+    height: 700px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 26px;
+    font-style: italic;
+    overflow-x: auto;
+}
+
+.zavd {
+    font-size: 32px;
+    margin-left: 180px;
+    cursor: pointer;
+}
+
+.before {
+    font-size: 20px;
+}
+
+hr {
+    border: none;
+    color: rgb(61, 4, 4);
+    background-color: rgb(61, 4, 4);
+    height: 2px;
+}
+
+#b6 {
+    width: 200px;
+    margin-left: 170px;
+    margin-top: 30px;
+    padding: 5px 20px;
+}
+
+#tar {
+    width: 510px;
+    height: 200px;
+    margin-top: 30px;
+    border: 6px double rgb(61, 4, 4);
+    padding: 20px;
+}
+
+#div7 {
+    margin-top: 50px;
+    width: 560px;
+    height: 700px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 26px;
+    font-style: italic;
+    overflow-x: auto;
+}

@@ -1,0 +1,365 @@
+@font-face {
+    font-family: "Decameron Text";
+    src: url("font/11356.ttf");
+}
+
+.osn {
+    margin-top: 120px;
+    margin-right: 200px;
+}
+
+#div1 {
+    margin-top: 50px;
+    width: 850px;
+    height: 600px;
+    padding: 0px;
+    font-size: 18px;
+    font-style: italic;
+    overflow-x: auto;
+    text-align: center;
+    border: 2px solid rgb(49, 14, 6);
+    /* overflow: hidden; */
+}
+
+.numbers {
+    width: 250px;
+    margin: 5px;
+    text-align: center;
+}
+
+hr {
+    border: none;
+    color: rgb(49, 14, 6);
+    background-color: rgb(49, 14, 6);
+    height: 2px;
+}
+
+.all {
+    display: flex;
+    flex-direction: column;
+    /* background: blue; */
+    width: inherit;
+    height: inherit;
+    /* justify-content: flex-end; */
+    /* align-items: center; */
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: inherit;
+    height: 60px;
+    margin-top: 32px;
+    --def: rgb(255, 184, 126);
+    --inv: rgba(57, 14, 4, 0.306);
+    border-bottom: 2px solid rgb(49, 14, 6);
+}
+
+.section {
+    display: flex;
+    height: inherit;
+    width: 25%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-size: 16px;
+    color: rgb(49, 14, 6);
+    /* font-family: "Decameron Text"; */
+    font-style: normal;
+    /* font-size: 30px; */
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: all 500ms cubic-bezier(0.77, 0, 0.175, 1);
+    cursor: pointer;
+    /*     background: aquamarine; */
+}
+
+.section a.transition_by_header {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.section:before,
+.section:after {
+    content: '';
+    position: absolute;
+    transition: inherit;
+    z-index: -1;
+}
+
+.section:hover {
+    color: var(--def);
+    transition-delay: .5s;
+}
+
+.section:hover:before {
+    transition-delay: 0s;
+    left: 0;
+    width: 100%;
+}
+
+.section:hover:after {
+    background: var(--inv);
+    transition-delay: .35s;
+    top: 0;
+    height: 100%;
+}
+
+.section:before {
+    top: 0px;
+    left: 50%;
+    height: 100%;
+    width: 0;
+    border: 1px solid var(--inv);
+    border-left: 0;
+    border-right: 0;
+}
+
+.section:after {
+    bottom: 0;
+    left: 0;
+    height: 0;
+    width: 100%;
+    background: var(--inv);
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 810px;
+    /*     height: 540px; */
+    margin: 20px;
+    margin-top: 90px;
+    /*     background: burlywood; */
+    overflow: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.section_name {
+    font-size: 30px;
+    /* background: aqua; */
+    margin-bottom: 30px;
+    font-family: "Decameron Text";
+    font-style: normal;
+    color: rgb(49, 14, 6);
+    font-size: 50px;
+}
+
+.all_news {
+    display: flex;
+    flex-direction: column;
+    /* overflow-x: auto; */
+}
+
+.news {
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid teal; */
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+    padding-right: 10px;
+    width: calc(100% - 250px);
+}
+
+.all_news_photo img {
+    width: 220px;
+}
+
+.all_news_title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    width: inherit;
+    width: 100%;
+}
+
+.all_news_data {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    margin-top: -15px;
+    margin-bottom: 10px;
+}
+
+.right_data {
+    display: flex;
+    flex-direction: row;
+}
+
+.right_data :first-child {
+    margin-right: 50px;
+}
+
+.all_news_content {
+    font-size: 14px;
+    text-align: justify;
+}
+
+.category_news {
+    /* background: crimson; */
+    margin-right: 40px;
+    margin-left: 40px;
+    text-align: left;
+}
+
+.category_news ul li {
+    /* background: lightgreen; */
+    margin-bottom: 2px;
+    cursor: pointer;
+}
+
+.category_name {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-family: "Decameron Text";
+    font-style: normal;
+    color: rgb(49, 14, 6);
+    font-size: 50px;
+}
+
+.one_news_information {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.one_news_photo img {
+    width: 510px;
+    margin-bottom: 30px;
+}
+
+.one_news_content {
+    text-align: justify;
+    /* background: darksalmon; */
+    margin-right: 20px;
+    margin-left: 20px;
+    font-style: normal;
+}
+
+.one_news_name {
+    /* background: khaki; */
+    margin-bottom: 10px;
+    margin-top: 5px;
+    font-family: "Decameron Text";
+    font-style: normal;
+    color: rgb(49, 14, 6);
+    font-size: 40px;
+}
+
+.delete_news {
+    display: flex;
+    flex-direction: row;
+}
+
+.delete_information {
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+    padding-right: 10px;
+    width: 620px;
+}
+
+.delete_photo img {
+    width: 100px;
+}
+
+.delete_news_data {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    /*     margin-top: -15px; */
+    margin-bottom: 5px;
+}
+
+.delete_index {
+    width: 50px;
+    padding-top: 7px;
+}
+
+.button {
+    margin-top: 20px;
+    width: 150px;
+    border-radius: 30%;
+}
+
+.add_news {
+    /* background: lawngreen; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-start;
+    font-style: normal;
+}
+
+.add_news div {
+    /* background: lightseagreen; */
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: flex-start;
+    align-content: flex-start;
+    margin-bottom: 11px;
+}
+
+.one_lines {
+    display: flex;
+    flex-direction: row;
+}
+
+.two_lines {
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    margin-left: 10px;
+    height: 25px;
+    background: none;
+    border: 2px dashed rgb(49, 14, 6);
+    font-style: italic;
+}
+
+.input_subject {
+    width: 180px;
+}
+
+.input_title {
+    width: 692px;
+}
+
+.input_author {
+    width: 722px;
+}
+
+.input_content {
+    width: 785px;
+    height: 100px;
+}
+
+.button_add {
+    margin-left: 330px;
+}
+
+.input_photo {
+    margin-left: 10px;
+    height: 25px;
+    background: none;
+}
