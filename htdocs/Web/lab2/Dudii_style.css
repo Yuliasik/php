@@ -1,0 +1,161 @@
+.osn {
+    margin-top: 120px;
+    margin-right: 200px;
+}
+
+#div1 {
+    margin-top: 200px;
+    width: 490px;
+    height: 280px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 26px;
+    font-style: italic;
+}
+
+#b1 {
+    margin-top: 30px;
+    width: 200px;
+    margin-left: 150px;
+}
+
+#block_left {
+    width: 280px;
+    float: left;
+    clear: both;
+}
+
+#block_right {
+    margin-left: 320px;
+    width: 200px;
+    padding-top: 40px;
+}
+
+.inp {
+    width: 70px;
+}
+
+#ph1 {
+    height: 80px;
+}
+
+#ph2 {
+    height: 140px;
+}
+
+#block_left2 {
+    width: 120px;
+    height: 180px;
+    float: left;
+    clear: both;
+}
+
+#block_left3 {
+    width: 120px;
+    margin-top: 25px;
+    height: 140px;
+    float: left;
+    clear: both;
+    /* background: cornflowerblue; */
+}
+
+.block_right2 {
+    margin-left: 150px;
+    width: 200px;
+    padding-top: 25px;
+    /* background: crimson; */
+}
+
+.osn2 {
+    width: 360px;
+    margin-top: 120px;
+    /* margin-left: 25px; */
+    /* background: darkblue; */
+}
+
+.osn3 {
+    width: 360px;
+    margin-top: 70px;
+    /* margin-left: 25px; */
+    /* background: darkblue; */
+}
+
+.b2 {
+    margin-top: 30px;
+    width: 200px;
+    margin-left: 80px;
+}
+
+.div2 {
+    margin-top: 200px;
+    width: 355px;
+    height: 320px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 26px;
+    font-style: italic;
+}
+
+#div4 {
+    margin-top: 55px;
+    width: 900px;
+    height: 680px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 26px;
+    font-style: italic;
+}
+
+.photo {
+    width: 199px;
+    margin: 8px;
+    padding: 3px;
+    border: 2px solid rgb(56, 11, 3);
+}
+
+#search {
+    margin-top: 15px;
+    text-align: center;
+    color: rgb(56, 11, 3);
+    font-size: 22px;
+}
+
+#name {
+    color: rgb(56, 11, 3);
+    font-size: 30px;
+}
+
+#block_in {
+    margin: auto;
+    width: 800px;
+}
+
+.photo_false {
+    width: 199px;
+    margin-left: 290px;
+    border: 7px double rgb(145, 4, 4);
+}
+
+.photo_true {
+    width: 199px;
+    margin-left: 290px;
+    border: 7px double rgb(2, 99, 18);
+}
+
+#choose {
+    width: 800px;
+    text-align: center;
+}
+
+#text1 {
+    margin-top: 20px;
+    height: 125px;
+    overflow-x: auto;
+    /* background: aqua; */
+}

@@ -1,0 +1,155 @@
+.osn {
+    margin-top: 120px;
+    margin-right: 200px;
+}
+
+#div1 {
+    margin-top: 80px;
+    width: 450px;
+    height: 640px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 26px;
+    font-style: italic;
+}
+
+#b1 {
+    margin-top: 30px;
+    width: 200px;
+    margin-left: 150px;
+}
+
+#block_left1 {
+    width: 80px;
+    margin-left: 20px;
+    float: left;
+    clear: both;
+}
+
+#block_right1 {
+    margin-left: 110px;
+    width: 380px;
+    padding-top: 30px;
+}
+
+.table {
+    margin-top: 90px;
+    border-color: rgb(34, 7, 2);
+}
+
+.index {
+    font-size: 18px;
+}
+
+.numbers {
+    width: 79px;
+}
+
+.rez {
+    /* background: aquamarine; */
+    width: 180px;
+    margin: auto;
+}
+
+#b2 {
+    margin-top: 30px;
+    width: 200px;
+    margin-left: 130px;
+}
+
+#div2 {
+    margin-top: 250px;
+    width: 450px;
+    height: 280px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 26px;
+    font-style: italic;
+}
+
+#div3 {
+    margin-top: 100px;
+    width: 540px;
+    height: 600px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 26px;
+    font-style: italic;
+    overflow-x: auto;
+}
+
+.zavd {
+    font-size: 32px;
+    margin-left: 190px;
+    cursor: pointer;
+}
+
+.answ {
+    color: rgb(114, 3, 3);
+}
+
+#div4 {
+    margin-top: 150px;
+    width: 550px;
+    height: 500px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 26px;
+    font-style: italic;
+    overflow-x: auto;
+}
+
+.z5_i {
+    width: 68px;
+}
+
+.b4 {
+    margin-top: 20px;
+    width: 200px;
+    margin-left: 180px;
+}
+
+.zavd5 {
+    font-size: 32px;
+    margin-left: 240px;
+}
+
+#div6 {
+    margin-top: 150px;
+    width: 400px;
+    height: 500px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 26px;
+    font-style: italic;
+    overflow-x: auto;
+}
+
+.b4 {
+    margin-top: 20px;
+    width: 200px;
+    margin-left: 100px;
+}
+
+#div7 {
+    margin-top: 250px;
+    width: 350px;
+    height: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 26px;
+    font-style: italic;
+    overflow-x: auto;
+}

@@ -1,0 +1,126 @@
+.osn {
+    margin-top: 120px;
+    margin-right: 200px;
+}
+
+#text {
+    font-size: 20px;
+    padding-left: 130px;
+}
+
+#div1 {
+    margin-top: 240px;
+    width: 490px;
+    height: 180px;
+    padding: 60px;
+    font-size: 26px;
+    font-style: italic;
+}
+
+#b1 {
+    width: 100px;
+}
+
+#div2 {
+    margin-top: 130px;
+    width: 480px;
+    height: 470px;
+    padding: 60px;
+    font-size: 26px;
+    font-style: italic;
+}
+
+#b2 {
+    margin-top: 30px;
+    width: 200px;
+    margin-left: 150px;
+}
+
+li {
+    margin-bottom: 15px;
+}
+
+#small_text {
+    font-size: 16px;
+}
+
+#numbers {
+    height: 90px;
+    overflow-x: auto;
+}
+
+#div3 {
+    margin-top: 150px;
+    width: 480px;
+    height: 400px;
+    padding: 60px;
+    font-size: 26px;
+    font-style: italic;
+}
+
+#b3 {
+    margin-top: 30px;
+    width: 200px;
+    margin-left: 150px;
+}
+
+#numbers3 {
+    height: 180px;
+    overflow-x: auto;
+}
+
+#div4 {
+    margin-top: 230px;
+    width: 300px;
+    height: 230px;
+    padding: 60px;
+    font-size: 26px;
+    font-style: italic;
+}
+
+#b4 {
+    margin-top: 30px;
+    width: 100px;
+    margin-left: 100px;
+}
+
+#div5 {
+    margin-top: 230px;
+    width: 380px;
+    height: 230px;
+    padding: 60px;
+    font-size: 26px;
+    font-style: italic;
+}
+
+#div6 {
+    margin-top: 250px;
+    width: 300px;
+    height: 120px;
+    padding: 80px;
+    font-size: 26px;
+    font-style: italic;
+}
+
+#b6 {
+    margin-top: 40px;
+    width: 200px;
+    margin-left: 50px;
+}
+
+#i1 {
+    width: 200px;
+    margin-left: 50px;
+}
+
+#n15_2 {
+    font-size: 40px;
+    text-align: center;
+}
+
+#pereh {
+    background: rgba(150, 131, 110, 0.7);
+    border: double 4px rgb(70, 59, 48);
+    border-radius: 20px;
+    text-align: center;
+}

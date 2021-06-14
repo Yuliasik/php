@@ -1,0 +1,251 @@
+        .osn {
+            margin-top: 120px;
+            margin-right: 200px;
+        }
+        
+        #div1 {
+            margin-top: 180px;
+            width: 500px;
+            height: 400px;
+            padding-left: 50px;
+            padding-right: 50px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            font-size: 26px;
+            font-style: italic;
+        }
+        
+        .name1 {
+            text-decoration: underline;
+        }
+        
+        table {
+            display: inline-block;
+            font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+            text-align: center;
+            background: #ff945652;
+            margin-left: 50px;
+            box-shadow: 0 0 7px #310e03;
+            border-collapse: collapse;
+            border-spacing: 5px;
+            border-radius: 10px;
+            border: 1.5px solid #310e03;
+            color: #310e03;
+        }
+        
+        th {
+            font-size: 24px;
+            font-weight: 300;
+            padding: 12px 10px;
+            border-bottom: 2px solid #310e03;
+        }
+        
+        tbody tr:nth-child(1) {
+            border-bottom: 2px solid #310e03;
+        }
+        
+        td {
+            padding: 10px;
+        }
+        
+        .zavd2 {
+            font-size: 18px;
+            text-align: center;
+        }
+        
+        #div4 {
+            margin-top: 130px;
+            width: 500px;
+            height: 500px;
+            padding-left: 50px;
+            padding-right: 50px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            font-size: 26px;
+            font-style: italic;
+            overflow-x: auto;
+        }
+        
+        hr {
+            border: none;
+            color: rgb(61, 4, 4);
+            background-color: rgb(61, 4, 4);
+            height: 2px;
+        }
+        
+        #table2 tr,
+        td {
+            border: 2px solid #310e03;
+        }
+        
+        #table2 {
+            margin-left: 5px;
+        }
+        
+        .zavd5 {
+            font-size: 24px;
+        }
+        
+        #div5 {
+            margin-top: 280px;
+            width: 300px;
+            height: 200px;
+            padding-left: 50px;
+            padding-right: 50px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            font-size: 28px;
+            font-style: italic;
+        }
+        
+        #div5_1 {
+            margin-top: 290px;
+            width: 440px;
+            height: 250px;
+            padding-left: 50px;
+            padding-right: 50px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            font-size: 28px;
+            font-style: italic;
+        }
+        
+        #div5_2 {
+            margin-top: 105px;
+            width: 510px;
+            height: 600px;
+            padding-left: 50px;
+            padding-right: 50px;
+            padding-top: 50px;
+            padding-bottom: 20px;
+            font-size: 28px;
+            font-style: italic;
+        }
+        
+        #div6 {
+            margin-top: 95px;
+            width: 860px;
+            height: 580px;
+            padding-left: 50px;
+            padding-right: 50px;
+            padding-top: 50px;
+            padding-bottom: 20px;
+            font-size: 26px;
+            font-style: italic;
+        }
+        
+        #b6 {
+            margin-top: 30px;
+            width: 200px;
+            margin-left: 220px;
+        }
+        
+        #c_p {
+            font-size: 46px;
+            color: rgb(73, 0, 10);
+            font-weight: bold;
+            margin-left: 180px;
+            margin-top: 10px;
+        }
+        
+        .inp {
+            width: 330px;
+        }
+        
+        #forma {
+            width: 600;
+            padding: 30px 60px 40px 60px;
+            margin-left: 70px;
+            border: 1px solid rgb(73, 0, 10);
+            box-shadow: 0 0 5px rgb(73, 0, 10);
+        }
+        
+        #div2 {
+            margin-top: 260px;
+            width: 600px;
+            height: 250px;
+            padding-left: 50px;
+            padding-right: 50px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            font-size: 26px;
+            font-style: italic;
+            text-align: center;
+        }
+        
+        #div3 {
+            margin-top: 260px;
+            width: 800px;
+            height: 200px;
+            padding-left: 50px;
+            padding-right: 50px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            font-size: 26px;
+            font-style: italic;
+            text-align: center;
+        }
+        
+        #div7 {
+            margin-top: 90px;
+            width: 450px;
+            height: 620px;
+            padding-left: 50px;
+            padding-right: 50px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            font-size: 26px;
+            font-style: italic;
+            overflow-x: auto;
+        }
+        
+        #forma7 p {
+            font-size: 17px;
+        }
+        
+        #forma7 .question {
+            font-size: 23px;
+        }
+        
+        #forma7 .input_n {
+            font-size: 17px;
+            margin-left: 120px;
+            text-align: center;
+            overflow-y: auto;
+            overflow-x: auto;
+        }
+        
+        #forma7 .button {
+            width: 150px;
+            height: 35px;
+        }
+        
+        #b7 {
+            margin-left: 50px;
+        }
+        
+        #b7r {
+            margin-left: 250px;
+            margin-top: -47px;
+        }
+        
+        #answers {
+            font-size: 14px;
+        }
+        
+        #answers span {
+            text-decoration: underline;
+            font-size: 16px;
+            margin-top: 50px;
+        }
+        
+        #text_ans {
+            margin-left: 150px;
+            font-size: 16px;
+        }
+        
+        #not_enter {
+            font-size: 30px;
+            margin-left: 60px;
+            color: rgb(61, 4, 4);
+        }
